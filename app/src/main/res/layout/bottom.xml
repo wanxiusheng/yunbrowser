@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@color/primary"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="0dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/goBack"
+                    android:layout_width="50dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/primary"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_arrow_back" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/goFor"
+                    android:layout_width="50dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/primary"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_arrow_forward" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/mainPage"
+                    android:layout_width="50dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/primary"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_home" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/refresh"
+                    android:layout_width="50dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/primary"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_refresh" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
