@@ -363,6 +363,16 @@ public class MainActivity extends AppCompatActivity {
                 .error(R.drawable.doge)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .into(touxiang);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Glide.with(this)
+                .load(url+"?_="+random.nextInt(1000))
+                .error(R.drawable.doge)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .into(touxiang);
 
     }
     public void setDefaultIcon(){
